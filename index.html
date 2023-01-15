@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/Normalize.css">
+    <script type="encriptador.js"></script>
+    <link rel="shortcut icon" href="imagenes/logos/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Encriptador Alura</title>
+     
+</head>
+<body class="fondo">
+    <header>
+        <h1 id="titulo"> Encriptador</h1>
+    </header>
+    <main>
+        <section class="inicial">
+            <p >
+                <img src=" imagenes/logo_alura.webp " class="logo" alt="a_minuscula">
+            </p>
+        </section>
+
+        <section class="container-fluid text-center">
+            <fieldset>
+                <div class="row g-0">
+                    <div class="col-md-6 derecho">
+                        <form action="" class="ingreso_del_texto">
+                            <textarea id= "mensaje" type="text" class="caja_de_texto1" placeholder=" ingrese el texto aquí..." cols="70" rows="10" required></textarea>
+                        </form>
+                        <legend style="font-size: smaller;"> &#9888; Solo letras minúscula y sin acentos</legend>
+                        <div class="botones_principales">
+                            <button type="button" id="encriptar" onclick = "encriptarTexto()">Encriptar!</button>
+                            <button type="button" id="desencriptar" onclick = "desencriptarTexto()">Desencriptar!</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 izquierdo">
+                       
+                        <form action="" class="resultado">
+                            <div class="imagen" id="imagen_busqueda">
+                                <div>
+                                    <img src="imagenes\gatito_informante.jpg"  class="imagen_gatito" style="width: 280px; alt="gatitoinformante">
+                                </div>
+                            </div>
+                            <div>
+                                <textarea id="textoCopiar" cols="70" rows="10" class="caja_de_texto2" placeholder="                      Aun no se ha encontrado ninguna encriptación">
+                                </textarea>
+                            </div>
+                            
+                        </form>
+                        <button type="button" Id="copiar" onclick = "copiar()"> Copiar</button>
+                    </div>
+                </div>
+                
+                
+            </fieldset>
+        </section>
+
+    </main>
+    <footer>
+        <p class="copyright">&copy Desarrollado por Avati Lucy - 2023</p>
+    </footer>
+    <script src="encriptador.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>

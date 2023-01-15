@@ -1,0 +1,98 @@
+.fondo{
+    background-image: url(../imagenes/fondo_del_body.jpg);
+    margin: 20px;
+}
+
+/* TITULO   */
+#titulo {
+    color: darkviolet ;
+    width: 20%; 
+    -webkit-text-stroke: 2px rgb(214, 214, 102);
+}
+.logo{
+    width:10%;
+    
+}
+
+/* CAJAS DE TEXTO*/
+
+.caja_de_texto1, .caja_de_texto2 {
+
+    background-color: lightyellow;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 20px;
+    border-color: burlywood;
+    border-width: 7px;
+} 
+
+.caja_de_texto2 {
+    background-image : url(../imagenes/estrellitas.png) ;
+    display:none;
+}
+/* IMAGEN ANTES DE EJECUTAR EL ENCRIPTADOR */
+.imagen_gatito {
+    width: 45%;
+    border-color: burlywood;
+    border-image: 14%;
+    position: relative;
+    bottom: 26px;
+    width:75%;
+    border-color: burlywood;
+}
+
+.fondo_textarea {
+    position: absolute;
+    width: 10%;
+    left: 54%;
+    top: 85%;
+}
+
+legend {
+    
+    color: rgb(228, 220, 106);
+    position: relative;
+    text-align: start;
+    left: 30px;
+}
+/*bottones*/
+
+#encriptar, #desencriptar, #copiar{
+    border-radius: 5px;
+    font-family:fantasy;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#encriptar, #copiar {
+    background-color: rgb(228, 220, 106);
+    color: black;
+    border-color: rgb(196, 146, 38);
+    
+}
+#desencriptar {
+    background-color: rgb(71, 25, 25);
+    color:  rgb(214, 214, 102);
+    border-color: rgb(136, 139, 89);
+    
+}
+#copiar {
+  position: relative;
+   top: 25px;
+   display: none;
+}
+
+/* FOOTER*/
+.copyright {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    left: 42%;
+    color: rgb(214, 214, 102);
+    width: 15%;
+    background-color: black;
+    border-radius: 20px;
+    clear: both;
+  }
+
